@@ -16,12 +16,16 @@ def DoubleIt():
         output = output + char * 2
     print(output)
 
+def camelCase():
+
 
 def main():
     factorial(5)
     factorial(3)
 
     DoubleIt()
+
+    camelCase()
 
 if __name__ == "__main__":
     main()
