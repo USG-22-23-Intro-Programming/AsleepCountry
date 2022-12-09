@@ -69,7 +69,9 @@ def groceryList(food):
      "eggs":3.25,
      "cake": 8.00,
      "pasta":3.50}
-    eishaJaein=0
+    #dictionary ^
+   eishaJaein=0
+    #loop - 'for i in range' 
     for i in range(len(food)):
         f=groceries.get(food[i])
         eishaJaein=eishaJaein+float(f)
@@ -83,6 +85,7 @@ def main():
     currencyConverter()
     groceryList(['apple','bagel','cabbage','milk',])
     groceryList(['cake','bagel','bagel','milk','bagel','bagel','bagel','bagel',])
+    #list
  
 if __name__ == "__main__":
     main()
